@@ -1,8 +1,8 @@
 package acbr
 
 /*
-#cgo windows LDFLAGS: -L. -lACBrLibCEP
-#cgo linux LDFLAGS: -L. -lacbrcep
+#cgo windows LDFLAGS: -L./lib -lACBrCEP
+#cgo linux LDFLAGS: -L./lib -lacbrcep64
 
 #include <stdlib.h>
 #include <string.h>

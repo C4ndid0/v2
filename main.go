@@ -9,15 +9,15 @@ import (
 )
 
 type CEPResponse struct {
-	Logradouro          string `json:"logradouro"`
-	Complemento         string `json:"complemento"`
-	Bairro              string `json:"bairro"`
-	Municipio           string `json:"municipio"`
-	UF                  string `json:"uf"`
-	CEP                 string `json:"cep"`
-	CodigoIBGE          string `json:"codigo_ibge"`
+	Logradouro string `json:"logradouro"`
+	Complemento string `json:"complemento"`
+	Bairro string `json:"bairro"`
+	Municipio string `json:"municipio"`
+	UF string `json:"uf"`
+	CEP string `json:"cep"`
+	CodigoIBGE string `json:"codigo_ibge"`
 	CodigoIBGEMunicipio string `json:"codigo_ibge_municipio"`
-	CodigoIBGEUF        string `json:"codigo_ibge_uf"`
+	CodigoIBGEUF string `json:"codigo_ibge_uf"`
 }
 
 func buscarCEPHandler(w http.ResponseWriter, r *http.Request) {
